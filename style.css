@@ -35,19 +35,28 @@ header {
 
 main {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 section {
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin: 0 70px;
     position: relative;
+    gap: 10px;
+    justify-content: center;
+
+  
 
 }
 .partecipanti { 
     width: 250px;
     height: 100%;
+    position: relative;
+
 
     /*DEBUG*/
 }
