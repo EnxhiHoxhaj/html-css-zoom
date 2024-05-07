@@ -13,8 +13,26 @@ body {
 }
 
 /*VALORI HEADER*/
+header {
+    font-size: 18px;
+    width: 100%;
+}
 
+#modalita-view {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.gallery{
+    background-color: rgb(63, 63, 63) ;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
 
+}
+.fa-solid, #view {
+    po
+}
 
 /*VALORI MAIN*/
 
