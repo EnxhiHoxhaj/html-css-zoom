@@ -18,7 +18,6 @@ header {
     font-size: 18px;
     width: 100%;
     height: 80px;
-    background-color: black;
 }
 
 #modalita-view {
@@ -33,7 +32,7 @@ header {
 
     padding: 5px;
     border-radius: 5px;
-    margin: 10px 5px;
+    margin: 10px 0px;
 }
 
 /*VALORI MAIN*/
@@ -79,3 +78,40 @@ section {
 }
 
 /*VALORI FOOTER*/
+
+footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    background-color: rgb(63, 63, 63, 70%) ;
+
+
+}
+
+footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#comandi-footer{
+    display: flex;
+    gap: 15px;
+}
+
+#select {
+    background-color: rgb(63, 63, 63, 70%) ;
+    color: white;
+    border: none;
+}
+
+.icona {
+    font-size: 30px;
+    margin: 0 8px 8px 0;
+    text-align: center;
+}
+
+.text-comando {
+    font-size: 12px;
+}
