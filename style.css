@@ -16,26 +16,52 @@ body {
 header {
     font-size: 18px;
     width: 100%;
+    height: 80px;
+    background-color: black;
 }
 
 #modalita-view {
     display: flex;
     justify-content: flex-end;
-    gap: 10px;
 }
 .gallery{
     background-color: rgb(63, 63, 63) ;
     padding: 5px;
     border-radius: 5px;
-    margin: 5px;
-
-}
-.fa-solid, #view {
-    po
+    margin: 10px 5px;
 }
 
 /*VALORI MAIN*/
 
+main {
+    width: 100%;
+}
 
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0 70px;
+    position: relative;
+
+}
+.partecipanti { 
+    width: 250px;
+    height: 100%;
+
+    /*DEBUG*/
+}
+
+.partecipanti img {
+    max-width: 100%;
+}
+
+.nome-partecipante {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    background-color: rgb(128, 128, 128, 30%);
+    padding: 5px;
+}
 
 /*VALORI FOOTER*/
