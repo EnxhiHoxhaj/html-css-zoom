@@ -106,18 +106,24 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding-left: 10px;
+    height: 80px;
    
 }
 
 #comandi-footer{
     display: flex;
-    gap: 15px;
+    gap: 18px;
 }
 
 .gruppo-comandi {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.sel {
+    display: flex;
+}
 
 .select {
     background-color: transparent;
@@ -133,14 +139,14 @@ i {
     font-size: 12px;
 }
 
-#exit {
+.right {
+    height: 100%;
     background-color:rgb(27, 27, 10) ;
-    height: 80px;
-    color: red;
     display: flex;
     align-items: center;
 }
 
-#exit div {
+#exit {
+    color: red;
     padding: 0 10px;
 }
