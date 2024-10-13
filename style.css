@@ -26,7 +26,8 @@ header {
     justify-content: flex-end;
     position: fixed;
     z-index: 500;
-    background-color: rgb(63, 63, 63, 70%) ;
+    background-color: rgba(85, 85, 85, 0.7) ;
+    padding: 0 10px;
 }
 .gallery{
 
@@ -53,11 +54,14 @@ section {
     gap: 10px;
     justify-content: center;
 
-  
-
 }
+
+.card-section{
+    padding-bottom: 90px;
+}
+
 .partecipanti { 
-    width: 250px;
+    width: calc(100% / 5 - 10px);
     height: 100%;
     position: relative;
 
@@ -73,20 +77,25 @@ section {
     position: absolute;
     left: 0;
     bottom: 10px;
-    background-color: rgb(128, 128, 128, 70%);
+    background-color: rgba(85, 85, 85, 0.7);
     padding: 5px;
+}
+
+.fa-microphone-slash {
+    font-size: 16px;
 }
 
 /*VALORI FOOTER*/
 
 footer {
     width: 100%;
+    height: 70px;
     margin-top: 20px;
-    background-color: rgb(63, 63, 63, 70%) ;
+    background-color: rgba(85, 85, 85, 0.7) ;
     position: fixed;
     bottom: 0;
     left: 0;
-    padding: 5px;
+    
 
 
 }
@@ -95,7 +104,9 @@ footer nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px;
+    align-items: center;
+    padding-left: 10px;
+   
 }
 
 #comandi-footer{
@@ -105,7 +116,6 @@ footer nav {
 
 .gruppo-comandi {
     position: relative;
-
 }
 
 
@@ -115,8 +125,8 @@ footer nav {
     border: none;
 }
 
-.icona {
-    font-size: 30px;
+i {
+    font-size: 20px;
 }
 
 .text-comando {
@@ -125,6 +135,12 @@ footer nav {
 
 #exit {
     background-color:rgb(27, 27, 10) ;
-    height: auto;
+    height: 80px;
     color: red;
+    display: flex;
+    align-items: center;
+}
+
+#exit div {
+    padding: 0 10px;
 }
